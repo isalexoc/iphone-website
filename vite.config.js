@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
     sentryVitePlugin({
       org: "isaac-orraiz",
-      project: "javascript-react",
+      project: "iphone-website",
     }),
     sentryVitePlugin({
       org: "isaac-orraiz",
