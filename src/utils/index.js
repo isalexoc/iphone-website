@@ -5,7 +5,7 @@ export const heroImg = hero;
 import hmv from "/assets/videos/hero.mp4";
 import smallmv from "/assets/videos/smallHero.mp4";
 import highlightFirstmv from "/assets/videos/highlight-first1.mp4";
-import highlightSectmv from "/assets/videos/hightlight-third1.mp4";
+import highlightSectmv from "/assets/videos/explore3.mp4";
 import highlightThirdmv from "/assets/videos/hightlight-sec1.mp4";
 import highlightFourthmv from "/assets/videos/highlight-first1.mp4";
 import exploremv from "/assets/videos/explore3.mp4";
