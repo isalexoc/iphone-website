@@ -71,7 +71,7 @@ const Features = () => {
           <div className="flex-center flex-col sm:px-10">
             <div className="relative h-[50vh] w-full flex items-center">
               <video
-                playsInline
+                playsInline={true}
                 id="exploreVideo"
                 className="w-full h-full object-cover object-center"
                 preload="none"
