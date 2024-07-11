@@ -33,6 +33,24 @@ const Features = () => {
     });
   }, []);
 
+  useEffect(() => {
+    // This useEffect will run once when the component mounts
+    const videoElement = videoRef.current;
+
+    if (videoElement) {
+      videoElement.addEventListener("error", (e) => {
+        console.error("Video error:", e);
+      });
+
+      // Make sure to remove the event listener when the component unmounts
+      return () => {
+        videoElement.removeEventListener("error", (e) => {
+          console.error("Video error:", e);
+        });
+      };
+    }
+  }, []); // Empty dependency array means this effect runs only once after the initial render
+
   return (
     <section className="h-full common-padding bg-zinc relative overflow-hidden">
       <div className="screen-max-wdith">
