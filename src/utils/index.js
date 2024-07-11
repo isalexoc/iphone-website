@@ -28,6 +28,17 @@ import explore1 from "/assets/images/explore1.jpg";
 import explore2 from "/assets/images/explore2.jpg";
 import chip from "/assets/images/chip.jpeg";
 import frame from "/assets/images/frame.png";
+import allCollors from "/assets/images/all_colors__eppfcocn9mky_large.jpg";
+import blackTitanium from "/assets/images/black_titanium__e5htsz029002_large.jpg";
+import blueTitanium from "/assets/images/blue_titanium__wsqgpa9i1822_large.jpg";
+import naturalTitanium from "/assets/images/natural_titanium__ccl12n7vwwxe_large.jpg";
+import whiteTitanium from "/assets/images/white_titanium__b3fwwp6zrrhy_large.jpg";
+
+export const allColorsImg = allCollors;
+export const blackTitaniumImg = blackTitanium;
+export const blueTitaniumImg = blueTitanium;
+export const naturalTitaniumImg = naturalTitanium;
+export const whiteTitaniumImg = whiteTitanium;
 
 export const heroVideo = hmv;
 export const smallHeroVideo = smallmv;
