@@ -74,7 +74,7 @@ const Features = () => {
                 playsInline
                 id="exploreVideo"
                 className="w-full h-full object-cover object-center"
-                preload="auto"
+                preload="none"
                 muted
                 autoPlay
                 ref={videoRef}
